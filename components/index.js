@@ -1,2 +1,3 @@
-export * from './Jumbo';
-export * from './OrderDetail'
+export * from './Jumbo.vue';
+export * from './OrderDetail.vue';
+export * from './AppLogo.vue';

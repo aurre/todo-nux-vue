@@ -1,9 +1,11 @@
 <template>
   <div>
-    <nuxt-link to="/program/features">Go to features</nuxt-link>
-    <nuxt-link to="/program/flashcards">Go to flashcards</nuxt-link>
+    <!-- Header -->
+
+    <!-- <nuxt-link to="/program/features">Go to features</nuxt-link>
+    <nuxt-link to="/program/flashcards">Go to flashcards</nuxt-link> -->
     <div class="page-content"><nuxt/></div>
-    footer
+    <!-- footer -->
   </div>
 </template>
 

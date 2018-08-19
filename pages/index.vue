@@ -1,19 +1,22 @@
 <template>
     <div>
-      <navbar></navbar>
       <h1 class="h1"> TO-DO </h1>
+      <div>
+      <TodoList/>
+      </div>
     </div>
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue';
+import TodoList from '@/components/TodoList';
 
 export default {
   components: {
-    Navbar,
+    TodoList,
   },
 };
 </script>
+
 
 <style>
 .h1 {

@@ -1,13 +1,25 @@
 <template>
   <div>
-    <!-- Header -->
-
-    <!-- <nuxt-link to="/program/features">Go to features</nuxt-link>
-    <nuxt-link to="/program/flashcards">Go to flashcards</nuxt-link> -->
+    <Navbar/>
+    <nuxt-link to="/program/features">Go to features</nuxt-link>
+    <nuxt-link to="/program/flashcards">Go to flashcards</nuxt-link>
     <div class="page-content"><nuxt/></div>
-    <!-- footer -->
+    <Footer/>
   </div>
 </template>
+
+<script>
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+
+export default {
+  components: {
+    Navbar,
+    Footer,
+  },
+};
+</script>
+
 
 <style>
 html {

@@ -1,8 +1,6 @@
 <template>
   <div>
     <Navbar/>
-    <nuxt-link to="/program/features">Go to features</nuxt-link>
-    <nuxt-link to="/program/flashcards">Go to flashcards</nuxt-link>
     <div class="page-content"><nuxt/></div>
     <Footer/>
   </div>

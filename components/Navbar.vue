@@ -9,7 +9,6 @@
 
 
 
-    <!-- Right aligned nav items -->
     <b-navbar-nav class="ml-auto">
       <b-navbar-nav>
         <b-nav-item href="/program/features">Feature</b-nav-item>
